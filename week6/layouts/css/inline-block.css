@@ -1,0 +1,30 @@
+.container {
+	margin: 0 3%;
+}
+
+article {
+	background: #f3f3f3;
+	display: inline-block;
+	width: 220px;
+	padding: 10px;
+	margin: 10px;
+}
+
+h1 {
+	font-size: 70px;
+	margin: 10px;
+	font-weight: 600;
+	font-size: 50px;
+}
+
+footer {
+	margin: 10px;
+	font-weight: 600;
+	font-size: 50px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	border-top: 7px solid #80c335;
+	margin: 0;
+}
