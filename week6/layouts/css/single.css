@@ -1,0 +1,11 @@
+body {
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container {
+	margin: 0 10%;
+}
+
+header, footer {
+	background: #ccc;
+}
