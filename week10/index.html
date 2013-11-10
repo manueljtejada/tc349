@@ -69,7 +69,7 @@
         <script src="js/main.js"></script>
         <script type="text/javascript">
 
-            if ($(window).width() > 600) {
+        if ($(window).width() <= 800) { $("nav").removeAttr("data-0 data-800 data-1500"); }
 
             var s = skrollr.init();
             
@@ -86,9 +86,9 @@
         
             //By default, the duration is hardcoded at 500ms.
             return 500;
-        },
-            });
-            };
+            },
+        });
+
         </script>
 
     </body>
