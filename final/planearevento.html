@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Agüecoco - Planea tu Evento</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fonts-avenir/stylesheet.css">
+        <link rel="stylesheet" href="css/fonts-aguecoco/stylesheet.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+
+<div id="bordertop"></div>
+
+<nav class="navbar navbar-default" role="navigation">
+<div class="container">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand icon-logo" href="index.html"></a>
+  </div>
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li><a href="nosotros.html">Sobre Nosotros</a></li>
+      <li><a href="servicios.html">Servicios</a></li>
+      <li><a href="recetas.html">Recetas</a></li>
+      <li><a href="fotos.html">Fotos</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+    <div class="nav navbar-nav navbar-right">
+        <a href="planearevento.html" class="btn btn-primary navbar-btn">Planea Tu Evento</a>
+    </div>
+  </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+
+<div class="jumbotron event">
+  <div class="container">
+  </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Planificador de Eventos</h1>
+            <div class="well well-lg"><p>Utilize el siguiente formulario para darnos los detalles, requerimientos y preferencias de su evento. Al enviar y completar este formularo, usted no está en ninguna obligación de efectuar ningún tipo de pago. Cuando recibamos su </p></div>
+        </div>
+        <div class="col-md-8">
+            <h2>Contacto &amp; Información General</h2>
+            <hr>
+                <form class="form-horizontal" role="form">
+
+                  <div class="form-group">
+                    <label for="inputName" class="col-sm-2 control-label">Nombres</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="inputName" placeholder="Nombres">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="inputApellidos" class="col-sm-2 control-label">Apellidos</label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputApellidos" placeholder="Apellidos">
+                    </div>
+                  </div>
+
+                    <div class="form-group">
+                    <label for="inputCompañía" class="col-sm-2 control-label">Compañía</label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputCompañía" placeholder="Correo Electrónico">
+                    </div>
+                  </div>
+
+                    <div class="form-group">
+                    <label for="inputEmail" class="col-sm-2 control-label">Correo Electrónico</label>
+                    <div class="col-sm-4">
+                      <input type="password" class="form-control" id="inputEmail" placeholder="aguecocoeventos@gmail.com">
+                    </div>
+                    <label for="inputPhone" class="col-sm-2 control-label">Teléfono</label>
+                    <div class="col-sm-4">
+                      <input type="password" class="form-control" id="inputPhone" placeholder="809-342-9747">
+                    </div>
+                  </div>  
+
+            <h2 style="margin-top:50px;">Información del Evento</h2>
+            <hr>     
+
+            <div class="form-group">
+                    <label for="inputName2" class="col-sm-2 control-label">Nombre</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="inputName2" placeholder="Introduzca el nombre de su evento">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="inputTipoEvento" class="col-sm-2 control-label">Tipo de Evento</label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputTipoEvento" placeholder="Apellidos">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                      <label for="inputFecha" class="col-sm-2 control-label">Fecha</label>
+                      <div class="col-sm-2">
+                      <select class="form-control">
+                          <option>Enero</option>
+                          <option>Febrero</option>
+                          <option>Marzo</option>
+                          <option>Abril</option>
+                          <option>Mayo</option>
+                          <option>Junio</option>
+                          <option>Julio</option>
+                          <option>Agosto</option>
+                          <option>Septiembre</option>
+                          <option>Octubre</option>
+                          <option>Noviembre</option>
+                          <option>Diciembre</option>
+                      </select>
+                      </div><!-- end Mes -->
+                      <div class="col-sm-2">
+                          <select class="form-control">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                              <option>6</option>
+                              <option>7</option>
+                              <option>8</option>
+                              <option>9</option>
+                              <option>10</option>
+                              <option>11</option>
+                              <option>12</option>
+                              <option>13</option>
+                              <option>14</option>
+                              <option>15</option>
+                              <option>16</option>
+                              <option>17</option>
+                              <option>18</option>
+                              <option>19</option>
+                              <option>20</option>
+                              <option>21</option>
+                              <option>22</option>
+                              <option>23</option>
+                              <option>24</option>
+                              <option>25</option>
+                              <option>26</option>
+                              <option>27</option>
+                              <option>28</option>
+                              <option>29</option>
+                              <option>30</option>
+                              <option>31</option>
+                          </select>
+                      </div><!-- end Día -->
+                      <div class="col-sm-2">
+                          <select class="form-control">
+                              <option>2013</option>
+                              <option>2014</option>
+                              <option>2015</option>
+                              <option>2016</option>
+                          </select>
+                      </div><!-- end Año -->
+                      <label for="inputHora" class="col-sm-1 control-label">Hora</label>
+                      <div class="col-sm-2">
+                          <select class="form-control">
+                              <option>1:00</option>
+                              <option>2:00</option>
+                              <option>3:00</option>
+                              <option>4:00</option>
+                              <option>5:00</option>
+                              <option>6:00</option>
+                              <option>7:00</option>
+                              <option>8:00</option>
+                              <option>9:00</option>
+                              <option>10:00</option>
+                              <option>11:00</option>
+                              <option>12:00</option>
+                          </select>
+                      </div><!-- end Hora -->
+                      <div class="col-sm-1">
+                          <select class="form-control">
+                              <option>AM</option>
+                              <option>PM</option>
+                          </select>
+                      </div><!-- end AM/PM -->
+                  </div>    
+
+                    <div class="form-group">
+                    <label for="inputCantInvitados" class="col-sm-2 control-label">Cantidad de Invitados</label>
+                    <div class="col-sm-4">
+                      <input type="password" class="form-control" id="inputCantInvitados" placeholder="# aproximado de invitados">
+                    </div>
+                    <label for="inputBlanco" class="col-sm-2 control-label">Blanco de Público</label>
+                    <div class="col-sm-4">
+                      <input type="password" class="form-control" id="inputBlanco" placeholder="Describa el blanco de público">
+                    </div>
+                  </div> 
+
+                    <div class="form-group">
+                    <label for="inputLugar" class="col-sm-2 control-label">Lugar</label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputLugar" placeholder="Correo Electrónico">
+                    </div>
+                  </div>
+
+                    <div class="form-group">
+                    <label for="inputDirección" class="col-sm-2 control-label">Dirección</label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputDirección" placeholder="# Calle, Sector, Ciudad">
+                    </div>
+                  </div>
+
+            <h2 style="margin-top:50px;">Catering</h2>
+            <hr>
+
+                <div class="form-group">
+                <div class="col-md-12">
+                <label>Elige el tipo de catering que deseas para tu evento:</label>
+                <div class="radio">
+                    <label><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">Estación de Picadera</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">Estación de Buffet</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">Bandejeada</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">Plateado</label>
+                </div>
+                </div>
+                </div>
+
+                <div class="form-group">
+                <div class="col-md-12">
+                <label>Comentarios</label>
+                <textarea class="form-control" rows="3" placeholder="Notas acerca del Catering"></textarea>
+                </div>
+                </div>
+
+            <h2 style="margin-top:50px;">Requerimientos</h2>
+            <hr>
+
+            <div class="checkbox">
+                <label><input type="checkbox" value="">Bebidas</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" value="">Mobiliario y Mantelería</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" value="">Cristalería</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" value="">Camareros</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" value="">Montaje</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" value="">Transporte</label>
+            </div>
+
+            <h2 style="margin-top:50px;">Comentarios</h2>
+            <hr>
+
+            <div class="form-group">
+            <div class="col-md-12">
+                <textarea class="form-control" rows="5" placeholder="Notas generales acerca del evento"></textarea>
+                </div>
+                </div>
+
+        <div class="form-group" style="margin-top: 50px;">
+            <div class="col-md-12">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+
+                </form>
+                </div>
+      
+        </div><!--/row-->
+    </div><!-- /container -->
+
+
+<footer class="mini-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="input-group">
+                <input type="text" class="form-control" placeholder="Inserta tu correo electrónico para subscribirte a nuestras noticias">
+                 <span class="input-group-btn">
+                 <button class="btn btn-primary" type="button">Registrar</button>
+                </span>
+             </div><!-- /input-group -->
+            </div>
+            <div class="col-md-6">            
+                <ul class="socialmedia">
+                    <li><a href="http://www.facebook.com/aguecocord" class="icon-facebook" target="_blank"></a></li>
+                    <li><a href="http://www.twitter.com/aguecoco" class="icon-twitter" target="_blank"></a></li>
+                    <li><a href="http://www.instagram.com/aguecoco" class="icon-instagram" target="_blank"></a></li>
+                    <li><a href="http://www.pinterest.com/aguecoco" class="icon-pinterest" target="_blank"></a></li>
+                </ul>
+            </div>
+        </div><!--/row-->
+    </div><!--/container-->
+</footer>
+
+<footer class="main-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <h5>Sobre Nosotros</h5>
+                <ul>
+                    <li><a href="nosotros.html#nosotros">¿Quiénes Somos?</a></li>
+                    <li><a href="nosotros.html#nosotros">Nuestros Servicios</a></li>
+                    <li><a href="nosotros.html#nosotros">Nuestra Visión</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h5>Servicios</h5>
+                <ul>
+                    <li><a href="servicios.html#catering">Catering</a></li>
+                    <li><a href="servicios.html#encargos">Encargos</a></li>
+                    <li><a href="servicios.html#bodas">Bodas</a></li>
+                    <li><a href="servicios.html#decoracion">Decoración</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h5>Recetas</h5>
+                <ul>
+                    <li><a href="recetas.html#receta-mes">Receta del Mes</a></li>
+                    <li><a href="recetas.html#receta-archivo">Archivo de Recetas</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h5>Fotos</h5>
+                <ul>
+                <li><a href="fotos.html#aperitivos">Aperitivos</a></li>
+                <li><a href="fotos.html#dulces">Dulces &amp; Postres</a></li>
+                <li><a href="fotos.html#platos-fuertes">Platos Fuertes</a></li>
+                <li><a href="fotos.html#eventos">Eventos &amp; Detalles</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5 style="margin-bottom:5px;">Contacto</h5>
+                <form role="form">
+                <div class="form-group">
+                    <input type="email" class="form-control" id="footerInputEmail1" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="footerInputPassword1" placeholder="Correo Electrónico">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
+                    </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div><!--/row-->
+        <hr>
+            <div class="col-md-12">
+                <p>Agüecoco &copy;. Todos los derechos reservados. Diseño y desarrolo web por <span>Manuel J. Tejada</span>.</p>
+            </div>
+    </div><!--/container-->
+</footer>
+
+   
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <!--script src="js/vendor/skrollr.min.js"></script-->
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/vendor/retina-1.1.0.min.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!--script type="text/javascript">
+            var s = skrollr.init();
+        </script-->
+
+    </body>
+</html>
